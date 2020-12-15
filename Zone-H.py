@@ -24,6 +24,6 @@ with open(urls, 'r') as urls:
 		get = benz[0]
 		if 'http://' not in get:
 			url = 'http://'+get
-			with open('hd.txt', 'a') as myfile:
+			with open('results.txt', 'a') as myfile:
 			 myfile.write('http://'+get)
 			 myfile.write('\n')
